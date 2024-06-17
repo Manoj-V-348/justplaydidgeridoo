@@ -1,0 +1,43 @@
+.music--container {
+  padding: 40px;
+}
+.performance--container {
+  margin-top: 30px;
+}
+.performance--container > h1 {
+  font-size: 20px;
+}
+.youtube--details {
+  padding: 15px;
+}
+.youtube--description {
+  margin-top: 10px;
+  font-size: 14px;
+}
+.youtube--video {
+  gap: 15px;
+  padding: 10px;
+}
+.youtube--video > h2 {
+  font-size: 16px;
+  align-self: flex-start;
+}
+.youtube--video--description {
+  padding: 10px;
+}
+.youtube--video--description > .poppins-semibold {
+  font-size: 16px;
+}
+.youtube--video--description > .description--text {
+  font-size: 12px;
+  text-align: left;
+}
+.music--container .youtube--link {
+  font-size: 24px;
+  text-align: center;
+  color: #0075ff;
+  text-decoration: underline;
+}
+.youtube--subscribe--text {
+  text-align: center;
+}

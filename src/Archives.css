@@ -1,0 +1,17 @@
+.archives--container {
+  padding: 40px;
+}
+h1 {
+  text-align: center;
+}
+.archive--images {
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 20px;
+}
+.archive--images > img {
+  width: 30%;
+}
+.archive--images--container {
+  margin-top: 40px;
+}

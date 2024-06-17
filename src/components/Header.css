@@ -1,9 +1,12 @@
 header {
   display: flex;
   margin-right: auto;
-  padding: 15px;
+  padding: 10px;
   height: 11dvh;
-  background-color: #ece3e9;
+  background-color: white;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
 }
 .header--left {
   display: flex;
@@ -11,7 +14,7 @@ header {
   justify-content: center;
   gap: 10px;
 }
-header > button {
+header > a {
   margin-left: auto;
 }
 a {
@@ -19,7 +22,7 @@ a {
   color: black;
 }
 .button {
-  padding: 10px 20px 10px 20px;
+  padding: 0px 10px 0px 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -27,6 +30,8 @@ a {
   border: none;
   border-radius: 10px;
   transition: all 0.3s ease-in-out;
+  font-size: 14px;
+  height: 70%;
 }
 .button:hover {
   cursor: pointer;
@@ -45,13 +50,14 @@ a {
   flex-direction: column;
   gap: 15px;
   transition: all 0.5s ease-in-out;
+  border-radius: 10px;
 
   -webkit-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   -moz-box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
   box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
 }
-.header--navbar > h2 {
-  font-size: 1.5rem;
+.header--navbar h2 {
+  font-size: 1.25rem;
 }
 .header--navbar > a {
   border-bottom: 1px solid rgba(0, 0, 0, 0.555);
@@ -63,4 +69,79 @@ a {
 
 .icon:hover {
   cursor: pointer;
+}
+
+.header--left .logo,
+.logo {
+  width: 50px;
+  border-radius: 5px;
+  margin-left: auto;
+}
+.desktop-heading {
+  display: none;
+}
+.burger {
+  width: 28px;
+}
+.mobile--logo {
+  display: block;
+}
+.header--below {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  z-index: 1;
+  background-color: white;
+}
+.header--below div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.header--below--links {
+  font-size: 18px;
+  font-family: "Poppins", sans-serif;
+  padding: 5px;
+}
+.research--hover {
+  padding: 5px;
+  font-size: 14px;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: end;
+  margin-left: 10px;
+  gap: 5px;
+  border-radius: 5px;
+  z-index: 0;
+  transition: all 0.5s ease-in-out;
+  background-color: white;
+
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+@media (min-width: 1024px) {
+  header {
+    height: 12vh;
+    padding: 10px 40px 10px 40px;
+  }
+  .header--left {
+    gap: 15px;
+  }
+  .logo {
+    height: 100%;
+  }
+  .desktop-heading {
+    margin-left: auto;
+    display: block;
+    font-size: 3rem;
+  }
+  .button {
+    padding: 15px 25px 15px 25px;
+    height: 60%;
+  }
 }

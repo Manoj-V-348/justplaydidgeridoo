@@ -4,9 +4,14 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
-div > img {
+a {
+  text-decoration: none;
+}
+div img {
   width: 100%;
+  object-fit: cover;
 }
 @font-face {
   font-family: "Mofia Regular";
@@ -45,4 +50,31 @@ div > img {
   font-family: "Poppins", sans-serif;
   font-weight: 800;
   font-style: normal;
+}
+
+.bold--text {
+  font-weight: 700;
+}
+.mofia {
+  font-family: "Mofia Regular";
+}
+
+.center--elements {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.horizontal--flex {
+  display: flex;
+  flex-direction: row;
+}
+.vertical--flex {
+  display: flex;
+  flex-direction: column;
+}
+.black {
+  color: black;
+}
+.center--text {
+  text-align: center;
 }
