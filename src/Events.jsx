@@ -17,9 +17,9 @@ function Events() {
           <h1 className="main--heading center--text">Events</h1>
         </div>
 
-        <div className="event--details--container poppins-regular">
-          <h1 className="poppins-semibold">Upcoming Events</h1>
+        <h1 className="poppins-semibold">Upcoming Events</h1>
 
+        <div className="event--details--container poppins-regular">
           <div className="event--details vertical--flex">
             <img src={eventImg1} alt="event1" />
             <div className="events--info vertical--flex">

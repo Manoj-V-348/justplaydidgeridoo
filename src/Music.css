@@ -41,3 +41,57 @@
 .youtube--subscribe--text {
   text-align: center;
 }
+
+@media (min-width: 1024px) {
+  .music--container {
+    padding: 0px;
+  }
+  .music--carousel {
+    height: 80dvh;
+    overflow: hidden;
+  }
+  .music--carousel > img {
+    object-fit: cover;
+    object-position: top center;
+  }
+  .performance--container {
+    padding: 30px;
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .performance--container > h1 {
+    font-size: 32px;
+    align-self: flex-start;
+  }
+  .youtube--details {
+    margin-left: 20px;
+  }
+  .youtube--details > p {
+    font-size: 20px;
+  }
+  .youtube--channel--name {
+    font-weight: 600;
+    text-decoration: underline;
+  }
+  .youtube--description {
+    font-weight: 400;
+  }
+  .youtube--video {
+    margin-left: 25px;
+    align-items: flex-start;
+  }
+  .youtube--video > h2 {
+    font-size: 20px;
+  }
+  .youtube--video .description--text {
+    font-size: 16px;
+  }
+  .youtube--video--description > .poppins-semibold {
+    font-size: 18px;
+  }
+  .video--link {
+    width: 400px;
+    height: 200px;
+  }
+}

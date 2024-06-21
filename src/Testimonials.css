@@ -33,3 +33,44 @@ h1 {
 .username {
   font-size: 20px;
 }
+
+@media (min-width: 770px) {
+  .testimonials--details--container {
+    width: 70%;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+@media (min-width: 1024px) {
+  .testimonials--details--container {
+    width: 70%;
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .testimonial {
+    width: 900px;
+    justify-content: flex-start;
+    padding: 15px;
+    gap: 20px;
+  }
+  .testimonial > img {
+    width: 140px;
+    height: 140px;
+  }
+  .testimonial--text {
+    font-size: 20px;
+  }
+  .username {
+    font-size: 28px;
+  }
+  .testimonial:nth-child(odd) {
+    flex-direction: row-reverse;
+    text-align: right;
+  }
+  .testimonials--details--container > p {
+    font-size: 20px;
+  }
+}

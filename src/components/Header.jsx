@@ -74,7 +74,7 @@ function Header() {
           </Link>
         </div>
 
-        <h1 className="main--heading desktop-heading">Sarang Sound Healing</h1>
+        <h1 className="main--heading desktop-heading">Just Play Didgerido</h1>
         <a href="https://cal.com/" className="poppins-semibold button">
           Book Now!
         </a>
@@ -96,7 +96,7 @@ function Header() {
         </div>
       </header>
       <div className="header--below">
-        <Link to="/bio">
+        <Link to="/">
           <p className="header--below--links">Bio</p>
         </Link>
         <Link to="/research">

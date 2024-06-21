@@ -126,7 +126,7 @@ a {
 
 @media (min-width: 1024px) {
   header {
-    height: 12vh;
+    height: 10vh;
     padding: 10px 40px 10px 40px;
   }
   .header--left {

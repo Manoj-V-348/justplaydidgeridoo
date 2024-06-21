@@ -17,9 +17,9 @@ function Music() {
         </div>
 
         <div className="performance--container poppins-regular vertical--flex">
-          <h1 className="poppins-semibold">Performance</h1>
+          <h1 className="mofia">Performance</h1>
           <div className="youtube--details">
-            <p>
+            <p className="youtube--channel--name">
               YouTube:{" "}
               <a
                 href="https://www.youtube.com/@JustPlayDidgeridoo"
@@ -37,7 +37,10 @@ function Music() {
 
             <div className="youtube--video center--elements vertical--flex">
               <h2 className="poppins-semibold">Most Viewed:</h2>
-              <iframe src="https://www.youtube.com/watch?v=z_vAUye3zOQ"></iframe>
+              <iframe
+                src="https://www.youtube.com/watch?v=z_vAUye3zOQ"
+                className="video--link"
+              ></iframe>
               <div className="youtube--video--description">
                 <p className="poppins-semibold">Description:</p>
                 <p className="description--text">
@@ -52,7 +55,10 @@ function Music() {
 
             <div className="youtube--video center--elements vertical--flex">
               <h2 className="poppins-semibold">Live Performance:</h2>
-              <iframe src="https://www.youtube.com/watch?v=Wx2JLxJdXLk"></iframe>
+              <iframe
+                src="https://www.youtube.com/watch?v=Wx2JLxJdXLk"
+                className="video--link"
+              ></iframe>
               <div className="youtube--video--description">
                 <p className="poppins-semibold">Description:</p>
                 <p className="description--text">

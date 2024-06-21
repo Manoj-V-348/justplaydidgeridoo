@@ -17,8 +17,33 @@
   color: white;
   width: 100%;
   margin-top: 10px;
+  gap: 5px;
 }
 .copyright > p {
   font-family: "Poppins", sans-serif;
   font-size: 10px;
+}
+
+@media (min-width: 1024px) {
+  .footer--container > h1 {
+    font-size: 2.5rem;
+  }
+  .youtube--container > p {
+    font-size: 22px;
+  }
+  .instagram--container > p {
+    font-size: 22px;
+  }
+  .copyright {
+    flex-direction: row;
+    justify-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+  .copyright > p {
+    font-size: 16px;
+  }
+  .copyright > p > a {
+    color: rgb(0, 153, 255);
+  }
 }

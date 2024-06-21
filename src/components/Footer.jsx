@@ -31,8 +31,11 @@ function Footer() {
           <p>fullmoonstay@naver.com</p>
         </Link>
       </div>
-      <div className="copyright center--elements">
+      <div className="copyright center--elements vertical--flex">
         <p className=".poppins-regular">2024, Sarang-All Rights Reserved</p>
+        <p className="poppins-regular">
+          Developed by, <a href="https://sampit.in/">SAMP IT</a>
+        </p>
       </div>
     </>
   );

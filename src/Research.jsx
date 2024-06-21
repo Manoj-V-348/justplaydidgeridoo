@@ -34,7 +34,7 @@ function Research() {
           </p>
         </div>
 
-        <div className="works--display--container center--elements vertical--flex">
+        <div className="works--display--container works--display--container2 center--elements vertical--flex">
           <div className="work--image--container">
             <img src={worksDisplay2} alt="Work 2" />
             <p className="mofia">" Work at various dept "</p>
@@ -47,7 +47,7 @@ function Research() {
           </p>
         </div>
 
-        <div className="works--display--container2 center--elements horizontal--flex">
+        <div className="works--display--container22 center--elements horizontal--flex">
           <div className="work--image--container2">
             <img src={worksDisplay2} alt="Work 2" />
             <p className="mofia">" Work at various dept "</p>
@@ -125,9 +125,13 @@ function Research() {
         </div>
 
         <div className="journal--details--container vertical--flex poppins-regular">
-          <h1>Journal</h1>
+          <h1 className="mofia">Journal</h1>
           <div className="journal--image--details horizontal--flex">
-            <img src={journalDetails1} alt="journal1" />
+            <img
+              src={journalDetails1}
+              alt="journal1"
+              className="journalimage1"
+            />
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
               unde quibusdam, quaerat minus nostrum vel, temporibus eum possimus
@@ -164,7 +168,11 @@ function Research() {
             </p>
           </div>
           <div className="journal--image--details journal--image--details2 horizontal--flex">
-            <img src={journalDisplay4} alt="journal4" />
+            <img
+              src={journalDisplay4}
+              alt="journal4"
+              className="journalimage1"
+            />
             <p>
               Lorem ipsum dolor sit amet consectetur, adipisicing elit. Tenetur
               unde quibusdam, quaerat minus nostrum vel, temporibus eum possimus

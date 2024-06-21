@@ -42,3 +42,17 @@
     height: 55dvh;
   }
 }
+@media (min-width: 1024px) {
+  .main--image {
+    height: 80vh;
+    overflow: hidden;
+  }
+  .main--image > img {
+    width: 100%;
+    object-fit: cover;
+  }
+  .image--with--description {
+    flex-direction: row;
+    padding: 100px;
+  }
+}
