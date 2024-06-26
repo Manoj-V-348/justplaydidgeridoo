@@ -15,7 +15,7 @@ function Footer() {
 
         <Link
           className="youtube--container horizontal--flex center--elements"
-          to="https://www.youtube.com/"
+          to="https://www.youtube.com/@JustPlayDidgeridoo"
           target="_blank"
         >
           <Icon icon="bi:youtube" width="16" height="16" />
@@ -34,7 +34,10 @@ function Footer() {
       <div className="copyright center--elements vertical--flex">
         <p className=".poppins-regular">2024, Sarang-All Rights Reserved</p>
         <p className="poppins-regular">
-          Developed by, <a href="https://sampit.in/">SAMP IT</a>
+          Developed by,{" "}
+          <a href="https://sampit.in/" target="_blank">
+            SAMP IT
+          </a>
         </p>
       </div>
     </>

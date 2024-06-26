@@ -3,6 +3,8 @@
   flex-direction: column;
   gap: 15px;
   padding: 10%;
+  background-color: rgb(153, 140, 26);
+  background-image: linear-gradient(to bottom, #998c1a, #f7f5f2);
 }
 .image--with--description > img {
   width: 80%;
@@ -54,5 +56,13 @@
   .image--with--description {
     flex-direction: row;
     padding: 100px;
+  }
+  .image--with--description > .description {
+    font-size: 2rem;
+    text-align: left;
+  }
+  .didgeridoo--player > .mofia {
+    font-size: 2rem;
+    text-align: left;
   }
 }

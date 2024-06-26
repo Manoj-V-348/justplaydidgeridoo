@@ -3,6 +3,7 @@
 }
 .performance--container {
   margin-top: 30px;
+  background-color: #dddcd0;
 }
 .performance--container > h1 {
   font-size: 20px;

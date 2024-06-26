@@ -59,19 +59,22 @@ function Header() {
           onClick={toggleNavbar}
           className="icon burger"
   /> */}
+          <Icon
+            icon="game-icons:hamburger-menu"
+            width="36"
+            height="36"
+            onClick={toggleNavbar}
+            className="icon burger"
+          />
           <Link to="/">
             {/* <h1 className="main--heading">JustplayDidgeridoo</h1> */}
-            <img
-              src={Logo}
-              alt="logo"
-              className="logo"
-              onClick={toggleNavbar}
-            />
+            <img src={Logo} alt="logo" className="logo" />
           </Link>
-          <Link to="/">
+          {/*   
+            <Link to="/">
             <h1 className="main--heading">SARANG</h1>
-            {/*  <img src={Logo} alt="logo" className="logo mobile--logo" /> */}
-          </Link>
+            </Link>
+          */}
         </div>
 
         <h1 className="main--heading desktop-heading">Just Play Didgerido</h1>
@@ -86,6 +89,48 @@ function Header() {
             onClick={toggleNavbar}
             className="icon"
           />
+
+          <Link to="/" onClick={toggleNavbar}>
+            <h2 className="main--heading poppins-medium">MEET SARANG</h2>
+          </Link>
+
+          <Link to="/research" onClick={toggleNavbar}>
+            <div className="research--link--container">
+              <h2
+                className="main--heading poppins-medium"
+                onClick={toggleResearch}
+              >
+                Research
+              </h2>
+              <Icon
+                icon="bxs:down-arrow"
+                width="10"
+                height="10"
+                onClick={toggleResearch}
+              />
+            </div>
+
+            <div className="research--hover" style={researchStyles}>
+              <p className="main--heading poppins-medium" onClick={worksScroll}>
+                Works
+              </p>
+              <p
+                className="main--heading poppins-medium"
+                onClick={journalScroll}
+              >
+                Articles
+              </p>
+            </div>
+          </Link>
+
+          <Link to="/music" onClick={toggleNavbar}>
+            <h2 className="main--heading poppins-medium">Music</h2>
+          </Link>
+
+          <Link to="/events" onClick={toggleNavbar}>
+            <h2 className="main--heading poppins-medium">Events</h2>
+          </Link>
+
           <Link to="/archives" onClick={toggleNavbar}>
             <h2 className="main--heading poppins-medium">Archives</h2>
           </Link>
@@ -95,40 +140,6 @@ function Header() {
           </Link>
         </div>
       </header>
-      <div className="header--below">
-        <Link to="/">
-          <p className="header--below--links">Bio</p>
-        </Link>
-        <Link to="/research">
-          <div>
-            <div>
-              <p className="header--below--links" onClick={toggleResearch}>
-                Research
-              </p>
-              <Icon
-                icon="bxs:down-arrow"
-                width="10"
-                height="10"
-                onClick={toggleResearch}
-              />
-            </div>
-          </div>
-          <div className="research--hover" style={researchStyles}>
-            <p className="header--below--links" onClick={worksScroll}>
-              Works
-            </p>
-            <p className="header--below--links" onClick={journalScroll}>
-              Articles
-            </p>
-          </div>
-        </Link>
-        <Link to="/music">
-          <p className="header--below--links">Music</p>
-        </Link>
-        <Link to="/events">
-          <p className="header--below--links">Events</p>
-        </Link>
-      </div>
     </>
   );
 }

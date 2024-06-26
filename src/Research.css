@@ -1,6 +1,7 @@
 .research--page--container {
   padding: 30px;
   z-index: -10;
+  background-color: #dddcd0;
 }
 .works--carousel {
   height: 30dvh;
@@ -10,12 +11,13 @@
   display: flex;
   align-items: end;
   justify-content: flex-start;
+  overflow: hidden;
 }
 .works--text {
-  background-color: white;
-  color: black;
+  color: white;
   padding: 5px;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
+  background-color: rgb(153, 140, 26);
 }
 .workshop--image {
   width: 100%;
@@ -24,10 +26,12 @@
   display: flex;
 }
 .see--more {
-  background-color: white;
+  color: white;
   width: 50%;
   font-size: 10px;
   align-self: flex-end;
+  background-color: rgb(153, 140, 26);
+  padding: 5px;
 }
 
 .works--display--container {
